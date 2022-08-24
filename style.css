@@ -2,18 +2,37 @@ body {
   background-color: #1a202c;
 }
 .wrapper{
-  width: 100%;
-  padding: 15px 15px 15px 15px;
-  font-family: arial;
+  width: 841px;
+  font-family: 'Poppins', sans-serif;
   font-size: 17.5px;
   height: 900px;
+  margin: 0 auto;
+  font-weight: 100;
+
+}
+h2  {
+   font-family: 'Aboreto', cursive;
 }
 
 p {
-  color: rgba(224,225,226,255);
+  color:white;
   line-height: 25px;
+font-weight: 500;
+
 }
-h2  {
+h1   {
   color: #e0e1e2;
   text-align:center;
+}
+
+}
+div img{
+  width: 736px;
+  height: 221.5px;
+  background-size:100px;
+  /* margin: 0 auto;  */
+  margin-left: 375px;
+  background-color: yellow;
+  background-position: center;
+  align-items: center;
 }
