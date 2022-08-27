@@ -2,8 +2,9 @@ body {
   background-color: #1a202c;
 }
 .wrapper{
-  width: 100%px;
-
+  width: auto;
+  text-align: center;
+  padding: 15px;
 }
 .img-banner{
   display: none;
@@ -12,16 +13,22 @@ body {
   width: 100%;
   }
   .image-info h1  {
-    padding: 15px 30px 20px 95px;
+    padding: 15px 30px 20px 30px;
     color: #e0e1e2;
     font-family: 'Aboreto', cursive;
     font-size: 25px;
     line-height: 35px;
   }
   .image-info p  {
-    padding: 3.5px 30px 20px 95px;
+    padding: 3.5px 30px 20px 30px;
     color: #e0e1e2;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     line-height:22.5px;
+  }
+  .JU-me{
+    padding-left: 0;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: auto;
   }
