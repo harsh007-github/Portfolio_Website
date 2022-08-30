@@ -13,13 +13,14 @@ body {
   width: 100%;
   }
   .image-info h1  {
-    padding: 15px 30px 20px 30px;
+     padding: 15px 30px 20px 30px;
     color: #e0e1e2;
-    font-family: 'Aboreto', cursive;
-    font-size: 5vw;
-    line-height: 35px;
+     font-family: 'Aboreto', cursive;
+     font-family: system-ui,sans-serif;
+     font-size: 5vw;
+     line-height: 35px;
     text-align: center;
-  }
+          }
   .image-info p  {
     padding: 3.5px 30px 20px 30px;
     color: #e0e1e2;
@@ -29,7 +30,55 @@ body {
   }
   .JU-me{
     padding-left: 0;
+      padding-bottom: 0;
     object-fit: cover;
     width: 100%;
     max-height: auto;
+  }
+  @media only screen and (max-width: 935px)  {
+    body {
+      background-color: #1a202c;
+    }
+    .wrapper{
+      width: auto;
+      text-align: center;
+      padding: 15px;
+
+    }
+    .img-banner{
+      display: none;
+    }
+    .image-info{
+      width: 100%;
+      }
+      .image-info h1  {
+        padding: 15px 30px 20px 30px;
+        color: #e0e1e2;
+        font-family: 'Aboreto', cursive;
+        font-size: 5vw;
+        line-height: 35px;
+        text-align: center;
+      }
+      .image-info p  {
+        padding: 3.5px 30px 20px 30px;
+        color: #e0e1e2;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5vw;
+        line-height:22.5px;
+        text-align: center;
+      }
+      .JU-me{
+        padding-left: 0;
+        object-fit: cover;
+        width: 75vw;
+        max-height: auto;
+      }
+      @media only screen and (max-width:510px) {
+        .JU-me{
+          padding-left: 0;
+          object-fit: cover;
+          max-width: 75vw;
+          max-height: auto;
+
+      }
   }
