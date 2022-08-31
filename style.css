@@ -6,6 +6,9 @@ body {
   text-align: center;
   padding: 15px;
 }
+.para2  {
+  display: none;
+}
 .img-banner{
   display: none;
 }
@@ -35,7 +38,7 @@ body {
     width: 100%;
     max-height: auto;
   }
-  @media only screen and (max-width: 935px)  {
+  @media only screen and (max-width: 930px)  {
     body {
       background-color: #1a202c;
     }
@@ -68,17 +71,27 @@ body {
         text-align: center;
       }
       .JU-me{
-        padding-left: 0;
+        text-align: center;
         object-fit: cover;
-        width: 75vw;
+        width: 100vw;
         max-height: auto;
       }
       @media only screen and (max-width:510px) {
         .JU-me{
           padding-left: 0;
+          display: none;
           object-fit: cover;
           max-width: 75vw;
           max-height: auto;
 
+      }
+      .para2 {
+        display: flex;
+        padding: 0px 30px 20px 30px;
+        color: #e0e1e2;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5vw;
+        line-height:22.5px;
+        text-align: center;
       }
   }
