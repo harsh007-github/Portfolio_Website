@@ -3,21 +3,44 @@
   padding: 0;
 }
 body{
-  background-color: #0f172a;
+  background-color: #202023;
 }
 .nav{
-  background-color:#a7a6ba;
+  background-color:#1d2a35;
   overflow: hidden;
+  flex-wrap: wrap;
+
 }
+
 .nav a  {
   float: left;
-  color: #f2f2f2;
+  color: #F5F5F5;
   text-align: center;
+  align-items: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: 'GFS Didot', serif;
+
 }
 .nav a:hover  {
-  background-color: #794887;
+  background-color: #202023;
   transition: 0.7s;
+}
+.flex-container {
+  background-color: #202023;
+  display:flex;
+  height: 75px;
+  font-size: 25px;
+  color: white;
+  width:100px;
+  justify-content: center;
+  width: 100%;
+  max-height: auto;
+  height: 150px;
+}
+.flex-container{
+  align-items: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
 }
