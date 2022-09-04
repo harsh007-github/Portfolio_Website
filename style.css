@@ -9,6 +9,7 @@ body{
   background-color:#1d2a35;
   overflow: hidden;
   flex-wrap: wrap;
+  width: 100%
 
 }
 
@@ -17,7 +18,7 @@ body{
   color: #F5F5F5;
   text-align: center;
   align-items: center;
-  padding: 14px 16px;
+  padding: 14px 16px ;
   text-decoration: none;
   font-size: 17px;
   font-family: 'GFS Didot', serif;
@@ -35,9 +36,9 @@ body{
   color: white;
   width:100px;
   justify-content: center;
-  width: 100%;
   max-height: auto;
-  height: 150px;
+  width: 100%;
+align-items: flex-start;
 }
 .flex-container{
   align-items: center;
