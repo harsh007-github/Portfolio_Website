@@ -5,29 +5,14 @@
 body{
   background-color: #202023;
 }
-.nav{
-  background-color:#1d2a35;
-  overflow: hidden;
-  flex-wrap: wrap;
-  width: 100%
-
+nav{
+  background-color: yellow;
+  width: 100%;
+}
+ul{
+color: green;
 }
 
-.nav a  {
-  float: left;
-  color: #F5F5F5;
-  text-align: center;
-  align-items: center;
-  padding: 14px 16px ;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: system-ui,sans-serif;
-
-}
-.nav a:hover  {
-  background-color: #202023;
-  transition: 0.9s;
-}
 h2  {
   background-image: linear-gradient(red, yellow);
   -webkit-background-clip: text;
