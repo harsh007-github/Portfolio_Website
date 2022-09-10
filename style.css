@@ -2,6 +2,21 @@
   margin: 0;
   padding: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
+.parallax{
+  background-image: url("image/Harsh.jpeg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 body{
   background-color: #202023;
 }
@@ -9,10 +24,19 @@ body{
   background-color:#1d2a35;
   overflow: hidden;
   flex-wrap: wrap;
-  width: 100%
-
+  width: 100%;
 }
-
+ul{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  align-items: center;
+}
+li {
+  padding: 0 20px;
+  font-size: 15px;
+  display: inline-block;
+}
 .nav a  {
   float: left;
   color: #F5F5F5;
@@ -31,9 +55,12 @@ body{
 h2  {
   background-image: linear-gradient(red, yellow);
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+  /* -moz-background-clip: text; */
   -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  /* -moz-text-fill-color: transparent; */
+}
+.title{
+  padding-bottom: 15px;
 }
 .flex-container {
   background-color: #202023;
@@ -52,4 +79,13 @@ h2  {
   align-items: center;
   font-family: system-ui,sans-serif;
   font-size: 55px;
+}
+#bottom{
+  position: relative;
+}
+.arrow{
+  position: absolute;
+  center: 0;
+  bottom: 0;
+
 }
