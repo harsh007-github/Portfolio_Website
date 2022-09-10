@@ -1,3 +1,4 @@
+ Sample-Website
 *{
   margin: 0;
   padding: 0;
@@ -79,6 +80,7 @@ h2  {
   align-items: center;
   font-family: system-ui,sans-serif;
   font-size: 55px;
+<<<<<<< HEAD
 }
 #bottom{
   position: relative;
@@ -89,3 +91,6 @@ h2  {
   bottom: 0;
 
 }
+=======
+}
+>>>>>>> dc24fa40bf5b6d83bad363b62c4f7f95bcc5aba4
