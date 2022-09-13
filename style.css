@@ -1,11 +1,18 @@
 *{
   margin: 0;
   padding: 0;
+  background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 body{
-  background-color: #1c1b22;
+  /* background-color: #1c1b22; */
+
+
   width: 100%;
   max-height: auto;
+  line-height: 55px;
 }
 .wrapper{
   background-color: #1c1b22;
@@ -15,26 +22,54 @@ body{
 }
 .flexh1{
   color: 	#f0f8ff;
+  margin-top: 25px;
   font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
   font-weight: 100;
-  font-size: 35px;
+  font-size: 65px;
   text-align: center;
   padding-top: 25px;
   display: block;
   float: center;
   justify-content: space-evenly;
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
 }
 .text{
   color: #f0f8ff;
   margin-top: 15px;
   text-align: center;
-  font-size: 25px;
+  font-size: 35px;
+  /* font-family: 'Merriweather', serif; */
+  font-family: system-ui,sans-serif;
+  margin-bottom: 15px;
+  line-height: 49.5px;
 }
 .banner{
    display: block;
   text-align: center;
   padding-top: 15px;
   overflow: hidden;
+}
+.socials{
+  color: white;
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.linkedin{
+  color: #f0f8ff;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  font-family: system-ui,sans-serif;
+}
+li{
+  text-align: center;
+  line-height: 47.5px;
 
 }
