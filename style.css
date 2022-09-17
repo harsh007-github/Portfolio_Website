@@ -9,7 +9,8 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 body{
   width: 100%;
   max-height: auto;
-  line-height: 55px;
+  line-height: 35px;
+
 }
 .wrapper{
   background-color: #1c1b22;
@@ -25,12 +26,12 @@ body{
   font-weight: 100;
   font-size: 85px;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 35px;
   display: block;
   float: center;
   justify-content: space-evenly;
   width: 100%;
-  height: 75px;
+  height: 85px;
   background: #ADA996;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -41,23 +42,25 @@ body{
 .text{
   color: #f0f8ff;
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
   font-family: system-ui,sans-serif;
   margin-bottom: 15px;
-  line-height: 49.5px;
+  line-height: 30.5px;
 }
 .banner{
-   display: block;
+  width: 300;
+  height: auto;
   text-align: center;
-  padding-top: 15px;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 15px;
+  object-position: center;
+
 }
 .photo{
-  border-radius: 125px;
+  border-radius: 25px;
   max-width: 100%;
-  height: auto
+  object-fit:cover;
+
+
 }
 .socials{
   color: white;
