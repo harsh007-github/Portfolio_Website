@@ -32,11 +32,28 @@ ul li{
   margin:  25px;
 }
 a {
-  color: #B8B8BC;
+  color: #9075D8;
   text-decoration: none;
   font-size: 25px;
   font-family: gil ;
 }
+.hover1 {
+  --s: 0.1em;   /* the thickness of the line */
+  --c:  #65B8BF; /* the color */
+
+  color:  #ACAEC5;
+  padding-bottom: var(--s);
+  background:
+    linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: 0.7s;
+}
+.hover1:hover {
+  --_p: 100%
+}
+
 .back{
     position:absolute;
     right: 0;
@@ -56,7 +73,7 @@ a {
   --s: 0.1em;   /* the thickness of the line */
   --c:  #A653F5; /* the color */
 
-  color:  #e3ddd3;
+  color:  #ACAEC5;
   padding-bottom: var(--s);
   background:
     linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
