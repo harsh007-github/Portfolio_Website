@@ -32,7 +32,7 @@ ul li{
   margin:  25px;
 }
 a {
-  color: #9075D8;
+  color: #2F4449;
   text-decoration: none;
   font-size: 25px;
   font-family: gil ;
@@ -64,28 +64,9 @@ a {
 }
 .hover{
   font-size: 75px;
-  color: #fff;
+  color: #FFFFFF;
   font-family: system-ui,sans-serif;
   cursor: pointer;
-}
-
-/* Hover Effects for heading */
-.hover {
-  --s: 0.1em;   /* the thickness of the line */
-  --c:  #A653F5; /* the color */
-
-  color:  #ACAEC5;
-  padding-bottom: var(--s);
-  background:
-    linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
-    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
-  -webkit-background-clip: text,padding-box;
-          background-clip: text,padding-box;
-  transition: 0.7s;
-
-}
-.hover:hover {
-  --_p: 100%
 }
 .content1{
   background: rgb(60, 60, 60);
