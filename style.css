@@ -99,7 +99,7 @@ a {
   font-size: 55px;
   color: #ACAEC5;
   text-align: center;
-  font-family: font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', serif;
 }
 .about-me{
   text-align: center;
@@ -145,6 +145,14 @@ a {
   max-height: 100vh;
   margin: auto;
 }
-.contact{
-  background-color: #ffeec3;
+.wrapper-contact{
+  margin: auto;
+  width: 60%;
+  border: 2px solid red;
+  padding: 10px;
+  min-height: 768px;
+  text-align: center;
+}
+.h1-contact{
+  margin-top: 35%;
 }
