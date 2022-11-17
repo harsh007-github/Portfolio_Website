@@ -117,6 +117,7 @@ a {
 .name{
   font-weight: bold;
 }
+/* Contact Page Begins */
 .image_contact{
   display: grid;
   height: 100%;
@@ -136,4 +137,11 @@ a {
 }
 .h1-contact{
   margin-top: 35%;
+}
+.links-contact{
+  text-align: center;
+}
+.socials-contact{
+  display: block;
+  text-align: left;
 }
