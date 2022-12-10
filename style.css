@@ -118,30 +118,8 @@ a {
   font-weight: bold;
 }
 /* Contact Page Begins */
-.image_contact{
-  display: grid;
-  height: 100%;
-}
-.back-image-Contact{
-  max-width: 100%;
-  max-height: 100vh;
-  margin: auto;
-}
-.wrapper-contact{
-  margin: auto;
-  width: 60%;
-  border: 2px solid red;
-  padding: 10px;
-  min-height: 768px;
-  text-align: center;
-}
-.h1-contact{
-  margin-top: 35%;
-}
-.links-contact{
-  text-align: center;
-}
-.socials-contact{
-  display: block;
-  text-align: left;
+form{
+  margin: 0 auto;
+  max-width: 300px;
+  min-width: 500px;
 }
