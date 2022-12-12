@@ -98,7 +98,7 @@ a {
   height: 100%;
   overflow: hidden;
 }
-.back{
+.back,iframe{
   z-index: -1;
   /* Make video to at least 100% wide and tall */
  min-width: 100%;
@@ -114,12 +114,22 @@ a {
  left: 50%;
  transform: translate(-50%,-50%);
 }
-.name{
+.name{p
   font-weight: bold;
 }
 /* Contact Page Begins */
-form{
+.wrapper-contact{
+  text-align: center;
   margin: 0 auto;
-  max-width: 300px;
-  min-width: 500px;
+}
+form{
+  text-align: center;
+}
+label{
+  color: yellow;
+  font-size: 15px;
+  display: block ;
+}
+input, textarea{
+  /* display: block; */
 }

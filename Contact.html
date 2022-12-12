@@ -11,12 +11,21 @@
 <!--Body area begins  -->
 <body class="contact-body">
   <!-- Main div (containing background video) -->
-  <!-- <div class="hero">
+  <div class="hero">
     <div class="video-container">
       <video class="back" autoplay muted loop plays-inline>
         <source src="video/back_vegeta.mp4" type="video/mp4">
       </video>
-    </div> -->
+    </div>
+  <div class="wrapper-contact">
+    <form class="contact-form" action="index.html" method="post">
+      <fieldset>
+        <label for="Name">Name:<input  type="text" id="Name" placeholder="Enter Your Name"></label>
+        <label for="email">Email:<input type="email"id="email" placeholder="Enter Your Email"> </label>
+        <label for="description">Write Your Message:<textarea name="description" rows="8" cols="80"  id="description" placeholder="Enter the text here..." ></textarea></label>
+      </fieldset>
+    </div>
+    </form
     <!-- Navigation Panel -->
     <nav>
       <ul>
@@ -26,16 +35,7 @@
       </ul>
     </nav>
   </div>
-  <div class="wrapper-contact">
-    <form class="contact-form" action="index.html" method="post">
-      <fieldset>
-        <label for="name">Name: <input type="text" name="name"></label>
-        <label for="email">Email: <input type="text" name="email"></label>
-        <label for="message">Message: <textarea name="message" rows="3" cols="56"></textarea> </label>
-      </fieldset>
-    </form>
 
-  </div>
 </body>
 <!-- Body area ends -->
 </html>
