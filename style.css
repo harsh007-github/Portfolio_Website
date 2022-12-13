@@ -119,17 +119,25 @@ a {
 }
 /* Contact Page Begins */
 .wrapper-contact{
+  position: absolute;
   text-align: center;
   margin: 0 auto;
 }
 form{
   text-align: center;
+  background-color: rgba(25 , 25 , 25 , 0.5);
 }
 label{
   color: yellow;
-  font-size: 15px;
-  display: block ;
+  font-size: 25px;
+  display: block;
 }
-input, textarea{
-  /* display: block; */
+input , textarea{
+      width: 100%;
+      border-color: white;
+      border-radius: 7.5px;
+      color: black;
+}
+fieldset{
+  border:none;
 }
