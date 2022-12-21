@@ -39,7 +39,7 @@ a {
 }
 .hover1 {
   --s: 0.1em;   /* the thickness of the line */
-  --c:  #65B8BF; /* the color */
+  --c:  #964EC2; /* the color */
 
   color:  #ACAEC5;
   padding-bottom: var(--s);
@@ -61,12 +61,6 @@ a {
     bottom:0 ;
     z-index: -1;
     display: flex; */
-}
-.hover{
-  font-size: 75px;
-  color: #FFFFFF;
-  font-family: system-ui,sans-serif;
-  cursor: pointer;
 }
 .content1{
   background: rgb(60, 60, 60);
@@ -141,3 +135,33 @@ input , textarea{
 fieldset{
   border:none;
 }
+.exampleClass{
+  font-size: 75px;
+  color: #FFFFFF;
+  font-family: system-ui,sans-serif;
+  cursor: pointer;
+}
+
+.exampleClass {
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+
+  .exampleClass::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #964EC2;
+    transform-origin: bottom right;
+    transition: transform 0.7s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+
+  .exampleClass:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
