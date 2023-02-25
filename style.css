@@ -15,7 +15,6 @@
   display: flex;
   padding: 0 5%;
   justify-content: center;
-  /* background-color: black; */
 }
 nav{
   width: 100%;
@@ -39,7 +38,7 @@ a {
 }
 .hover1 {
   --s: 0.1em;   /* the thickness of the line */
-  --c:  #964EC2; /* the color */
+  --c:  #ffc872; /* the color */
 
   color:  #ACAEC5;
   padding-bottom: var(--s);
@@ -63,8 +62,8 @@ a {
     display: flex; */
 }
 .content1{
-  background: rgb(60, 60, 60);
-   background: rgba(40, 55, 40, 0.35);
+  /* background: rgb(60, 60, 60); */
+   /* background: rgba(40, 55, 40, 0.35); */
    border-radius: 15px;
    align-items: center;
    position: absolute;
@@ -108,7 +107,7 @@ a {
  left: 50%;
  transform: translate(-50%,-50%);
 }
-.name{p
+.name{
   font-weight: bold;
 }
 /* Contact Page Begins */
@@ -156,7 +155,7 @@ fieldset{
     height: 3.5px;
     bottom: 0;
     left: 0;
-    background-color: #964EC2;
+    background-color: #FFE3B3;
     transform-origin: bottom right;
     transition: transform 0.7s cubic-bezier(0.86, 0, 0.07, 1);
   }
